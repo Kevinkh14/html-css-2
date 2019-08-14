@@ -1,0 +1,111 @@
+html{
+    background-image:url("https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png")
+}
+#name{
+    position:relative; 
+    left: 100px;
+    top:90px;
+    font-size: 20px
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    
+    color:white;
+
+}
+.mid {
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    width:26vw;
+    position:relative;
+    top:105px;
+    font-size: 13px;
+    font-weight: bold
+}
+li{
+    list-style-type:none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor:hand;
+}
+
+#sub{
+   position: relative;
+   right: 100px;
+   top:90px;
+   border-radius: 40% / 100%;
+   border-style: solid;
+   width: 100px;
+   height: 30px
+}
+.middletxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 75px;
+    font-weight: bold;
+}
+#button {
+    list-style-type:none;
+    font-family: 'Karla', sans-serif;
+    width: 130x;
+    height:40px;
+    background-color: transparent;
+    border-radius: 40%/100%;
+    color: white;
+    font-size:20px;
+    position: relative;
+    right: 100px;
+    top:85px;
+    cursor:hand;
+}
+#smalltxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -3%
+}
+.social{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#button2{
+    position: relative;
+    left:43%;
+    top: 10px;
+    justify-content: flex-end;
+    list-style-type:none;
+    font-family: 'Karla', sans-serif;
+    width: 150x;
+    height:70px;
+    background-color:white;
+    border-radius: 35%/100%;
+    color:blue;
+    font-size:30px;
+    font-weight: bold;
+    cursor:hand;
+}
+h1{
+  writing-mode: vertical-rl;
+  font-size: 17px;
+  list-style-type:none;
+  font-family: 'Karla', sans-serif;
+  color:white;
+  font-weight: 100;
+}
+h2{
+    position:relative;
+    bottom:60px;
+    left: 50%;
+    font-size: 17px;
+    list-style-type:none;
+    font-family: 'Karla', sans-serif;
+    color:white;
+}
